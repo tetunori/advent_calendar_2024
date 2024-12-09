@@ -52,7 +52,7 @@ function draw() {
 
   square(width / 2, height / 2, s * (markerSize + 0.01));
 
-  filter(BLUR, 3);
+  // filter(BLUR, 3);
 
   pop();
 
