@@ -17,6 +17,7 @@ function setup() {
   stroke(255, 50, 0);
 
   background(0);
+  iOSfullscreen();
 }
 
 function draw() {
@@ -69,7 +70,7 @@ function draw() {
 }
 
 function mouseClicked() {
-  if (isFullScreen) {
+  if (!isFullScreen) {
     fullscreen(true);
   } else {
     fullscreen(false);
